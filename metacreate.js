@@ -1,9 +1,9 @@
 const axios = require('axios')
 const fs = require('fs');
-const metapref = require('./meta');
+const meta = require('./meta');
 const targets = [
-  {type: 'pref', data:metapref.pref},
-  {type: 'city', data:metapref.city}
+  {type: 'pref', data:meta.pref},
+  {type: 'city', data:meta.city}
   ];
 let count = 0;
 targets.forEach((value, index) => {
