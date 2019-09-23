@@ -140,11 +140,11 @@ const pref = [
         label: 'Ｍ生活時間',
         key: 'syakai/0000010213',
         statId: '0000010213'
-      },
+      }
     ]
   }
-];
-const city =[
+]
+const city = [
   {
     label: '基礎データ(廃置分合処理済)',
     key: 'kiso',
@@ -204,7 +204,7 @@ const city =[
         label: 'Ｋ安全',
         key: 'kiso/0000020211',
         statId: '0000020211'
-      },
+      }
     ]
   },
   {
@@ -266,7 +266,7 @@ const city =[
         label: 'Ｋ安全',
         key: 'syakai/0000020311',
         statId: '0000020311'
-      },
+      }
     ]
   },
   {
@@ -328,9 +328,9 @@ const city =[
         label: 'Ｋ安全',
         key: 'kiso2/0000020111',
         statId: '0000020111'
-      },
+      }
     ]
   }
-];
+]
 exports.pref = pref
 exports.city = city
